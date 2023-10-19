@@ -1,0 +1,23 @@
+@font-face{
+    font-family: 'Gulliver';
+    font-display: swap;
+    src: url('../font/Gulliver-Regular.woff2');
+}
+@font-face{
+    font-family: 'JetBrains Mono';
+    font-display: swap;
+    src: url('../font/JetBrainsMono-Regular.woff2');
+}
+@font-face{
+    font-family: 'HarmonyOS Sans SC';
+    font-display: swap;
+    src: url('../font/HarmonyOS_Sans_SC_Regular.woff2');
+}
+body {
+    font-family: 'Gulliver','HarmonyOS Sans SC';
+    font-size: '15pt';
+}
+code {
+    font-family: 'JetBrains Mono','HarmonyOS Sans SC';
+    font-size: '14pt';
+}
