@@ -3,6 +3,7 @@ title: 关于
 date: 2023-10-19 21:14:10
 type: about
 aside: false
+comments: false
 copyright: disable
 ---
 # About Blog
@@ -24,14 +25,19 @@ copyright: disable
     From the video [Otsukimi Recital - Lyney, Lynette, Freminette](https://www.youtube.com/watch?v=I4QyYpgJCvY) made by [Aeyvindr](https://www.youtube.com/@aeyvindr4177)
 + **Favicon**\
     From the emoji [【狗子】](https://b23.tv/OxZkb9M) on bilibili
-+ **Font**\
-    Font format: woff2\
-    Font compression: [fonttools](https://pypi.org/project/fonttools/) + [CloudConvert](https://cloudconvert.com/)
++ **Font**
+    + *Format*: woff2
+    + *Compression*: [fonttools](https://pypi.org/project/fonttools/) + [CloudConvert](https://cloudconvert.com/)
     + *Chinese font*: HarmonyOS_Sans_SC
     + *English font*: Gulliver
-    + *Code font*: JetBrains_Mono
+    + *Code font*: [JetBrains_Mono](https://www.jetbrains.com/lp/mono/)
++ **Comment**
+    + *System*: [Twikoo](https://github.com/twikoojs/twikoo)
+    + *Deploy*: [Vercel](https://vercel.com/)
+    + *Data Storage*: [MongoDB](https://cloud.mongodb.com/)
 + **Domain**\
-    https://hxyx-blog.vercel.app/
+    https://hxyx-blog.vercel.app/\
+    https://hxyx-blog.netlify.app/
 
 # About Me
 + **Nickname**\
