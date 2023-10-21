@@ -36,8 +36,7 @@ copyright: disable
     + *Deploy*: [Vercel](https://vercel.com/)
     + *Data Storage*: [MongoDB](https://cloud.mongodb.com/)
 + **Domain**\
-    https://hxyx-blog.vercel.app/\
-    https://hxyx-blog.netlify.app/
+    https://hxyx-blog.vercel.app/
 
 # About Me
 + **Nickname**\
