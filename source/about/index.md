@@ -10,14 +10,14 @@ copyright: disable
 + **Title**\
     From my nickname
 + **SubTitle**\
-    From the poem "**七律·有所思**" written by Chairman Mao Zedong
+    From the poem \"**七律·有所思**\" written by Chairman Mao Zedong
     >   正是神都有事时，又来南国踏芳枝。\
         青松怒向苍天发，败叶纷随碧水驰。\
         一阵风雷惊世界，满街红绿走旌旗。\
         凭栏静听潇潇雨，故国人民有所思。
 
 + **Description**\
-    From the lyrics of the song "**残酷な天使のテーゼ**"
+    From the lyrics of the song \"**残酷な天使のテーゼ**\"
     >   残酷な天使のように\
         少年よ  神話になれ
 
