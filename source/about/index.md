@@ -9,7 +9,7 @@ copyright: disable
 + **Title**\
     From my nickname
 + **SubTitle**\
-    From the poem "**七律·有所思**" by Chairman Mao Zedong
+    From the poem "**七律·有所思**" written by Chairman Mao Zedong
     >   正是神都有事时，又来南国踏芳枝。\
         青松怒向苍天发，败叶纷随碧水驰。\
         一阵风雷惊世界，满街红绿走旌旗。\
@@ -18,7 +18,7 @@ copyright: disable
 + **Description**\
     From the lyrics of the song "**残酷な天使のテーゼ**"
     >   残酷な天使のように\
-        少年よ 神話になれ
+        少年よ  神話になれ
 
 + **Avatar**\
     From the video [Otsukimi Recital - Lyney, Lynette, Freminette](https://www.youtube.com/watch?v=I4QyYpgJCvY) made by [Aeyvindr](https://www.youtube.com/@aeyvindr4177)
@@ -27,9 +27,9 @@ copyright: disable
 + **Font**\
     Font format: woff2\
     Font compression: [fonttools](https://pypi.org/project/fonttools/) + [CloudConvert](https://cloudconvert.com/)
-    + *Chinese*: HarmonyOS_Sans_SC
-    + *English*: Gulliver
-    + *Code*: JetBrains_Mono
+    + *Chinese font*: HarmonyOS_Sans_SC
+    + *English font*: Gulliver
+    + *Code font*: JetBrains_Mono
 + **Domain**\
     https://hxyx-blog.vercel.app/
 
