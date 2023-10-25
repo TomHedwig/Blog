@@ -53,7 +53,7 @@ copyright: disable
     + Kerbal Space Program
     + Cities: Skylines
     + Sid Meier's Civilization VI
-+ **Favorite Comics**
++ **Favorite Animation**
     + 秒速5センチメートル（秒速五厘米）
     + 新世紀エヴァンゲリオン（新世纪福音战士）
     + TIGER×DRAGON！（龙与虎）
