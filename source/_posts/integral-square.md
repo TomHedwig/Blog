@@ -105,8 +105,7 @@ $$\begin{aligned}
 $$\begin{aligned}
     \int\sqrt{x^2-a^2}dx&\xlongequal{x=a\sec t}a^2\int\tan^2 t\sec t\,dt\\
     &=a^2\int\left(\sec^2t-1\right)\sec t\,dt\\
-    &=a^2\left(\int\sec^3t-\sec t\,dt\right)\\
-
+    &=a^2\left(\int\sec^3t\,dt-\int\sec t\,dt\right)\\
     &=\dfrac{a^2}{2}\left(\sec t\tan t-\ln\left|\sec t+\tan t\right|\right)+C\\
     &=\dfrac{1}{2}\left(x\sqrt{x^2-a^2}-a^2\ln\left|x+\sqrt{x^2-a^2}\right|\right)+C
 \end{aligned}$$
