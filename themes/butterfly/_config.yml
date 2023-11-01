@@ -208,7 +208,7 @@ footer:
   owner:
     enable: true
     since: 2023
-  custom_text:
+  custom_text: 风带来故事的种子，时间使之发芽
   copyright: false # Copyright of theme and framework
 
 # aside (側邊欄)
@@ -219,7 +219,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   display:
     archive: true
     tag: true
