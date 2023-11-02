@@ -6,7 +6,6 @@ categories:
     - 数学
 tags:
     - 积分
-katex: true
 description: 本文总结了一些不定积分的推导过程。
 ---
 # 摘要
