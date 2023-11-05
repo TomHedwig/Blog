@@ -2,7 +2,6 @@
 title: Test
 date: 2023-10-18 18:28:55
 categories:
-    - 其他
     - 测试
 tags: 
     - Hexo
