@@ -136,6 +136,4 @@ $$\begin{cases}
 \end{cases}$$
 
 那么，所有经过$L$的平面均可以用下面的式子表示：
-$$(A_1x+B_1y+C_1z+D_1)+\lambda(A_2x+B_2y+C_2z+D_2)=0\qquad(\lambda\in\R)$$
-
-需要说明的是，若构成直线$L$的两平面方程中的一个的系数中含有$0$而另一个不含$0$，则通常将系数不含$0$的那个方程乘$\lambda$。
+$$\lambda(A_1x+B_1y+C_1z+D_1)+\mu(A_2x+B_2y+C_2z+D_2)=0\qquad(\lambda,\mu\in\R)$$
