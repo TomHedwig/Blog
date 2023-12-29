@@ -11,15 +11,19 @@ description: 本文列举了一些在使用C#进行STK二次开发时的操作�
 
 + 新建项目前，对 STK 9 和 STK 11，均以管理员权限运行 *STK Install Folder \ bin \ AgPluginReg.exe* 以注册所有 *.dll* 文件
 
+    ![](https://74fb1427.blog-resource-1zq.pages.dev/img/stk_Register.bmp)
+
 + 新建项目时，注意 STK 9 和 STK 11 均只支持 .net Framework 而不支持 .net Core
 
 + 在项目属性（Properties）中，对于构建（Build）中的目标平台（Platform target）设置，STK 9 和 STK 11 有所区别：
 
     + STK 9 应选择 **x86**
 
+      ![](https://74fb1427.blog-resource-1zq.pages.dev/img/stk9_Build.bmp)
+
     + STK 11 应选择 **any CPU** 并保持 **Prefer 32-bit** 选项处于未勾选的状态
 
-      ![](https://pic-bed-c6s.pages.dev/img/stk11_Build.bmp)
+      ![](https://74fb1427.blog-resource-1zq.pages.dev/img/stk11_Build.bmp)
 
       
 
@@ -28,26 +32,34 @@ description: 本文列举了一些在使用C#进行STK二次开发时的操作�
     + **System.Drawing**
 
     + **System.Windows.Forms**
-    
+
     + **WindowsFormsIntegration**
+
+      ![](https://74fb1427.blog-resource-1zq.pages.dev/img/stk_Assembly_1.bmp)
+
+      ![](https://74fb1427.blog-resource-1zq.pages.dev/img/stk_Assembly_2.bmp)
 
 + 在 COM 引用的设置中，STK 9 与 STK 11 有所区别：
 
     + STK 9 应在 *Peference Manager > COM > Type Libraries* 中勾选以下选项：
 
         + **AGI STK Objects 9**
-        
+
         + **AGI STK Util 9**
 
         + **AGI STK VGT 9**
 
         + **AGI STK X 9**
-        
+
+          ![](https://74fb1427.blog-resource-1zq.pages.dev/img/stk9_COM_1.bmp)
+
         并在 *Peference Manager > Browse* 中打开 *STK 9 Install Folder \ bin \ Primary Interop Assemblies* 以添加以下文件：
 
         + **AGI.STKX.Interop.dll**
 
         + **AxAGI.STKX.Interop.dll**
+
+          ![](https://74fb1427.blog-resource-1zq.pages.dev/img/stk9_COM_2.bmp)
 
     + STK 11 应在 *Peference Manager > Browse* 中打开 *STK 11 Install Folder \ bin \ Primary Interop Assemblies* 以添加以下文件：
 
@@ -63,11 +75,11 @@ description: 本文列举了一些在使用C#进行STK二次开发时的操作�
 
         + **AGI.STKObjects.Interop.dll**
         
-          ![](https://pic-bed-c6s.pages.dev/img/stk11_COM.bmp)
+          ![](https://74fb1427.blog-resource-1zq.pages.dev/img/stk11_COM.bmp)
 
 + 完成后，必须将上述引用的 **全部内容** 的 **Embed Interop Types** 属性设置为 **false**
 
-    ![](https://pic-bed-c6s.pages.dev/img/stk11_Properties.bmp)
+    ![](https://74fb1427.blog-resource-1zq.pages.dev/img/stk_Properties.bmp)
 
 + 在创建 *AgStkObjectRoot* 的新实例时，需要注意的是，若当前程序中不存在以下内容中的任意一个：
   
